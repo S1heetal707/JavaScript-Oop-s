@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Digital CLock</title>
+</head>
+<body>
+   <span id="txt"></span>
+
+	<script type="text/javascript">
+		let today = new Date();
+		//debugger
+		let h= today.getHours();
+		let m= today.getMinutes();
+		let s= today.getSeconds();
+
+		m= checktime(m);
+		document.writeln(m);
+
+// document.getElementById("txt").innerHTML=("Current time : "+ " " +h+":"+m":"+s);
+
+
+	</script>
+
+</body>
+</html>

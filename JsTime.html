@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS current time </title>
+</head>
+<body>
+	<p id="txt"></p>
+	<script type="text/javascript">
+		let today = new Date();
+		let h = today.getHours();
+		let m = today.getMinutes();
+		let s = today.getSeconds();
+
+		document.getElementById("txt").innerHTML= today;
+		document.getElementById("txt").innerHTML= h;
+		document.getElementById("txt").innerHTML= m;
+		document.getElementById("txt").innerHTML= s;
+	</script>
+
+
+</body>
+</html>
